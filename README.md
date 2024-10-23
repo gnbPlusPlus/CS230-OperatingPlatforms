@@ -28,4 +28,4 @@ It's so important to consider the user's needs when designing because they are w
 How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
 -- 
 
-I approached designing this software in pieces, as aided by how the course broke it up into parts 1, 2, and 3. This made the work a lot more manageable, so I'll be using this same strategy again (just like modularizing code). I've learned in this design to narrow my focus to my client's needs and the user's experience, and constantly keeping these things in mind will help guide me toward concise plans.
+I approached designing this software in pieces, as aided by how the course broke it up into parts 1, 2, and 3. This made the work a lot more manageable, so I'll be using this same strategy again (just like modularizing code). I've learned in this design to narrow my focus to my client's needs and the user's experience, and constantly keeping these things in mind will help guide me toward completing concise plans.
