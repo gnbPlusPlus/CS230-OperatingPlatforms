@@ -1,6 +1,8 @@
 Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
 -- 
 
+The Gaming room is a fictional company that wanted to expand their Android-based web game, Draw It or Lose It, to more desktop and mobile operating systems (i.e., Mac, Windows, Linux, iOS). Their web-based game needed to function well on both mobile and desktop devices, fulfill technical requirements like rendering high-definition images speedily, and check for players' unique names, to name some of the requirements.
+
 What did you do particularly well in developing this documentation?
 --
 
@@ -19,5 +21,11 @@ Definitely the Evaluation section (part two)! That was the piece I got the lowes
 How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
 -- 
 
+I found myself running off with my focus at times, since I'm a beginner. My scope was too broad because I was afraid of missing things. Once I remembered to narrow my thinking to the client, my work started to make more sense. I considered the hefty storage and rendering needed for the image processing-- that influenced my recommendation for a cloud-based platform. Knowing that only one game instance could exist in memory at a time was a crucial requirement that I emphasized repeatedly because it was important to the client.
+Considering the user separately from the client then shifted my focus to development and what it would take, given the client's wishes. The user experience made me realize that the images would need to gradually reveal themselves at the speed of the round (30 or 15 seconds) exactly, or the gameplay would be unbalanced. Cloud-based storage and image retrieval seemed like the best option to ensure smooth gameplay.
+It's so important to consider the user's needs when designing because they are who the product is for. The client wanted to expand their user base, but a low-quality game would not fulfill this desire. Positive user experience is critical for retention and client satisfaction. If the user's needs aren't fulfilled (i.e., if the images didn't load properly during a round), then neither are the client's-- the two are intrinsically linked.
+
 How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
 -- 
+
+I approached designing this software in pieces, as aided by how the course broke it up into parts 1, 2, and 3. This made the work a lot more manageable, so I'll be using this same strategy again (just like modularizing code). I've learned in this design to narrow my focus to my client's needs and the user's experience, and constantly keeping these things in mind will help guide me toward concise plans.
